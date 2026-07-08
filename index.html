@@ -1,8 +1,52 @@
 <html>
-    <head>
-        <title>hello world</title>
-    </head>
+    <head><!-- balise head pour inclure les métadonnées et les liens vers les fichiers CSS et JavaScript -->
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+</head>
     <body>
-        <h1>c'est ma premiere application !</h1>; 
+        <nav>
+            <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="A propos.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="travail.html">work</a></li>
+                <li><a href="cv.html">Projects</a></li> 
+            </ul>
+        </nav>
+            <!-- li (list idem element de liste ) chaque element d'une liste est placé dan sune balise comme Accueil, services etc...   -->
+             <!-- ul (unordered list) liste non ordonnée, les éléments de la liste sont placés dans une balise -->
+             <!-- nav (navigation) balise de navigation, elle est utilisée pour regrouper les liens de navigation d'un site web; on commence tjrs par "a" qui est a l'intérieur de la balise li -->  
+    <!-- les section (section id="about"> H2) -->
+     <section id="about">
+        <h2>About</h2>
+        </section>
+        <section id="travail">
+            <h2>work</h2>
+        </section>       
+            <section id="contact">
+                <h2>Contact</h2>
+            </section>
+        <form> <!-- balise form pour créer un formulaire -->
+        <label for="nom">Nom :</label><!--label pour donner un nom a la description du champ-->
+        <input type="text" id="nom" name="nom"><!--<input> pour créer un champ de saisie        -->
+
+        <br><br><!--<br> pour insérer une ligne vide -->
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message"></textarea>
+
+        <br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+        <footer>
+    <p>&copy; 2026 Mon Portfolio.</p>
+</footer>
     </body>
 </html>
