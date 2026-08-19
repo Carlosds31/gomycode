@@ -1,31 +1,53 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
     <meta charset="UTF-8">
     <title>Mon Portfolio</title>
+    <style>
+        /* Espacement propre des champs du formulaire */
+        form label,
+        form input,
+        form textarea,
+        form button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="a-propos.html">about</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h1>Bienvenue</h1>
-        <p>Ceci est un paragraphe volontairement non fermé
-        <div>
-            <p>Un div dans un p, c'est interdit en HTML</p>
-        </div>
-        <br>
-        <img src="photo.jpg">
-    </main>
-    <section>
-        <h2>Contact</h2>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="travail.html">work</a></li>
+                <li><a href="cv.html">Projects</a></li>
+            </ul>
+        </nav>
+     <section id="about">
+        <h2>About</h2>
+        </section>
+        <section id="travail">
+            <h2>work</h2>
+        </section>
+            <section id="contact">
+                <h2>Contact</h2>
+            </section>
         <form>
-            <label>Nom :</label>
-            <input type="text" name="nom">
-            <button type="submit">Envoyer</button>
-        </from>
-    </secton>
-</body>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom">
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+        <footer>
+    <p>&copy; 2026 Mon Portfolio.</p>
+</footer>
+    </body>
 </html>
