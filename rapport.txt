@@ -1,0 +1,18 @@
+=== HTML ===
+
+/home/runner/work/gomycode/gomycode/index.html
+  28:12  error  Inline style is not allowed                       no-inline-style
+  28:77  error  Trailing whitespace                               no-trailing-whitespace
+  29:10  error  <button> is missing recommended "type" attribute  no-implicit-button-type
+  30:10  error  <img> is missing required "alt" attribute         wcag/h37
+
+✖ 4 problems (4 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/no-inline-style.html
+  https://html-validate.org/rules/no-trailing-whitespace.html
+  https://html-validate.org/rules/no-implicit-button-type.html
+  https://html-validate.org/rules/wcag/h37.html
+
+=== CSS ===
+=== JS ===
